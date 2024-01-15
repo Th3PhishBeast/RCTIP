@@ -8,5 +8,6 @@
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "master"]
 	remote = origin
+        password = 00000
 	merge = refs/heads/master
-Path: m/4'/105'/0'/90/36
+        Tronlink Path: m/4'/105'/0'/90/36
