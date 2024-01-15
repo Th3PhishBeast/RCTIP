@@ -4,8 +4,8 @@
 	bare = false
 	logallrefupdates = true
 [remote "origin"]
-	url = https://github.com/MrMaxweII/Bitcoin-Address-Generator
-	fetch = +refs/heads/*:refs/remotes/origin/*
+	url = https://github.com/MrMaxweII/RCTIP_SENDER
+	fetch = +refs/heads/*:refs/remotes/origin/
 [branch "master"]
 	remote = origin
         password = 00000
