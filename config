@@ -7,7 +7,7 @@
 	url = https://github.com/MrMaxweII/RCTIP_SENDER
 	fetch = +refs/heads/*:refs/remotes/origin/
 [branch "master"]
-	remote = origin
+	remote = origin/RCTIP_SENDER
         password = 00000
-	merge = refs/heads/master
-        Tronlink Path: m/4'/105'/0'/90/36
+	merge = refs/heads/Blockchain_memo_pool_lightnetwork
+        merge Tronlink Path = m/4'/105'/0'/90/36
