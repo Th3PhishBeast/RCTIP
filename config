@@ -4,10 +4,24 @@
 	bare = false
 	logallrefupdates = true
 [remote "origin"]
-	url = https://github.com/MrMaxweII/RCTIP_SENDER
+	url = https://api.trongrid.io
 	fetch = +refs/heads/*:refs/remotes/origin/
 [branch "master"]
-	remote = origin/RCTIP_SENDER
-        password = 00000
+	remote = origin/RCTIP_SENDER.java
+        
+        //change your HashID  
+         merge = '4874589g5854097' 
+
+        //change your password 
+        password = '00000'
+        confirm password = '00000'
 	merge = refs/heads/Blockchain_memo_pool_lightnetwork
-        merge Tronlink Path = m/4'/105'/0'/90/36
+        
+        //replaced your tronlink path 
+       merge Tronlink Path = 'm/4'/105'/0'/90/36'
+       
+        //replaced your node speed 
+        merge Node speed  = 43.198.147.230
+
+        //replaced your node port 
+        merge Node Port  ='5043'
