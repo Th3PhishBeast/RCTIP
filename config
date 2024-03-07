@@ -13,15 +13,15 @@
          merge = '4874589g5854097' 
 
         //change your password 
-        password = '00000'
-        confirm password = '00000'
+        Password = '00000'
+        Confirm password = '00000'
 	merge = refs/heads/Blockchain_memo_pool_lightnetwork
         
-        //replaced your tronlink path 
+        //replaced your Tronlink path 
        merge Tronlink Path = 'm/4'/105'/0'/90/36'
        
-        //replaced your node speed 
+        //replaced your Node speed 
         merge Node speed  = 43.198.147.230
 
-        //replaced your node port 
+        //replaced your Node port 
         merge Node Port  ='5043'
