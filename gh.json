@@ -1,1 +1,0 @@
-[{"code":"%1$s.setColorFilter(Color.parseColor(\"%2$s\")); ","color":-16728876,"name":"Image Color Change","paletteColor":0,"spec":"image color change  ImageView  %m.imageview  Color  %s.inputOnly ","spec2":""},{"code":"((EditText)%s).setError(%s);","color":-11899692,"name":"EditTextShowError","paletteColor":0,"spec":"%m.edittext show error %s","spec2":""}]

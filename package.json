@@ -1,0 +1,34 @@
+{
+  "name": "tron-basic-crud",
+  "version": "0.0.1",
+  "description": "",
+  "main": "tronbox-config.js",
+  "directories": {},
+  "scripts": {
+    "startnode": "docker run -itd --rm -p 9090:9090 --name tron trontools/quickstart:2.0.17",
+    "compile": "tronbox.cmd compile --all",
+    "deploylocal": "tronbox.cmd migrate --reset --network localdev",
+    "deployshasta": "source .env && tronbox migrate --reset --network shasta",
+    "deploymain": "tronbox.cmd migrate --reset --network mainnet",
+    "testlocal": "tronbox.cmd test --network localdev",
+    "testshasta": "source .env && tronbox test --network shasta",
+    "cdtl": "npm run compile && npm run deploylocal && npm run testlocal",
+    "cdts": "npm run compile && npm run deployshasta && npm run testshasta",
+    "specs": "jest --runInBand"
+  },
+  "jest": {
+    "testRegex": "(/__tests__/.*|(\\.|/)(spec))\\.[jt]sx?$",
+    "testPathIgnorePatterns": [
+      "clients"
+    ],
+    "verbose": true
+  },
+  "author": "Wendy Sanarwanto <wendy.sanarwanto@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^8.1.0",
+    "jest": "^24.9.0",
+    "tronweb": "^2.10.1"
+  },
+  "dependencies": {}
+}
