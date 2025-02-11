@@ -18,7 +18,7 @@
 	merge = refs/heads/Blockchain_memo_pool_lightnetwork
         
         //replaced your Tronlink path 
-       merge Tronlink Path = 'm/4'/105'/0'/90/36'
+       merge Tronlink Path = 'm/44'/195'/0'/0/0'
        
         //replaced your Node speed 
         merge Node speed  = 43.198.147.230
